@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maverick", "Maverick\Maverick.csproj", "{91077B4B-D14E-44D6-91D5-BFB5FBD05188}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaverickTesting", "MaverickTesting\MaverickTesting.csproj", "{1CED9C04-888D-4843-A685-34AAE7278985}"
+	ProjectSection(ProjectDependencies) = postProject
+		{91077B4B-D14E-44D6-91D5-BFB5FBD05188} = {91077B4B-D14E-44D6-91D5-BFB5FBD05188}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91077B4B-D14E-44D6-91D5-BFB5FBD05188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91077B4B-D14E-44D6-91D5-BFB5FBD05188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91077B4B-D14E-44D6-91D5-BFB5FBD05188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91077B4B-D14E-44D6-91D5-BFB5FBD05188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CED9C04-888D-4843-A685-34AAE7278985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CED9C04-888D-4843-A685-34AAE7278985}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CED9C04-888D-4843-A685-34AAE7278985}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CED9C04-888D-4843-A685-34AAE7278985}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1460364E-FEE7-47D3-AF25-406FFB852FF9}
+	EndGlobalSection
+EndGlobal
