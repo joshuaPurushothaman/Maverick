@@ -1,4 +1,4 @@
-﻿using Maverick.Rendering;
+﻿using Maverick.Core.Graphics;
 
 using OpenTK.Mathematics;
 using OpenTK.Windowing.Common;

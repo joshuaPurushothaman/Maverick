@@ -10,4 +10,8 @@
     <PackageReference Include="OpenTK" Version="4.7.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\ValorECS\ValorECS.csproj" />
+  </ItemGroup>
+
 </Project>

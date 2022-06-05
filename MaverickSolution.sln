@@ -3,12 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maverick", "Maverick\Maverick.csproj", "{91077B4B-D14E-44D6-91D5-BFB5FBD05188}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Maverick", "Maverick\Maverick.csproj", "{91077B4B-D14E-44D6-91D5-BFB5FBD05188}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaverickTesting", "MaverickTesting\MaverickTesting.csproj", "{1CED9C04-888D-4843-A685-34AAE7278985}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MaverickTesting", "MaverickTesting\MaverickTesting.csproj", "{1CED9C04-888D-4843-A685-34AAE7278985}"
 	ProjectSection(ProjectDependencies) = postProject
 		{91077B4B-D14E-44D6-91D5-BFB5FBD05188} = {91077B4B-D14E-44D6-91D5-BFB5FBD05188}
 	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValorECS", "..\ValorECS\ValorECS.csproj", "{AB8DC3E4-6B7A-45A3-83A5-88A52513F56E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -24,6 +26,10 @@ Global
 		{1CED9C04-888D-4843-A685-34AAE7278985}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CED9C04-888D-4843-A685-34AAE7278985}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CED9C04-888D-4843-A685-34AAE7278985}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB8DC3E4-6B7A-45A3-83A5-88A52513F56E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB8DC3E4-6B7A-45A3-83A5-88A52513F56E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB8DC3E4-6B7A-45A3-83A5-88A52513F56E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB8DC3E4-6B7A-45A3-83A5-88A52513F56E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
